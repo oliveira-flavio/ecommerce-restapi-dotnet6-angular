@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.api", "src\ecommerce.api\ecommerce.api.csproj", "{EFC2285C-56DE-4BB0-85C9-BF6D2E708BDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecommerce.api", "src\ecommerce.api\ecommerce.api.csproj", "{EFC2285C-56DE-4BB0-85C9-BF6D2E708BDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{C8CD27F4-4563-499E-B64F-8415B7DDA450}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EFC2285C-56DE-4BB0-85C9-BF6D2E708BDE} = {C8CD27F4-4563-499E-B64F-8415B7DDA450}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDD8FE51-635C-468E-988B-0374F661DBE1}
